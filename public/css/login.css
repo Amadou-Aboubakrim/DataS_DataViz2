@@ -1,0 +1,72 @@
+/* login.css */
+
+/* Style du card (cadre qui couvre le formulaire) */
+.custom-card {
+    max-width: 300px;
+    padding: 70px;
+    margin-left: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffc4;
+    margin-top: 130px;
+    padding-bottom: 40px; /* Ajoute de l'espace en bas du card */
+}
+
+/* Style du bouton "Log in" */
+.btn-tertiary {
+    display: block;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #D6E4FF;
+    padding: 8px 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Ajoute de l'espace en bas du bouton */
+}
+
+/* Titre */
+h2.text-center {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Positionnement des icônes */
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    padding-left: 35px; /* décaler pour laisser la place à l'icône */
+}
+
+.input-icon i {
+    position: absolute;
+    left: -20px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b2bdd2; /* Couleur de l'icône */
+}
+
+/* Style des champs de formulaire */
+.form-control {
+    border-radius: 0 8px 8px 0; /* Arrondi à droite */
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style du texte centré */
+.text-center {
+    text-align: center;
+    margin-top: 20px; /* Augmentez cette valeur selon le besoin */
+}
+
+/* Style des liens */
+.text-sm {
+    font-size: 18px;
+    color: #b2bdd2;
+    font-weight: bold;
+}

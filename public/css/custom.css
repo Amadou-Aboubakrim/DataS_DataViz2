@@ -1,0 +1,40 @@
+/* custom.css */
+body {
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    font-family: 'Arial', sans-serif; /* Police de caractère */
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.btn-primary, .btn-secondary {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 18px;
+}

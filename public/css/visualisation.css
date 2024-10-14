@@ -1,0 +1,67 @@
+/* Style spécifique pour centrer le texte, l'icône et le nombre d'offres dans les dashboards */
+.dashboard-text-center {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style pour les icônes à l'intérieur des dashboards */
+.dashboard-icon {
+    color: white;
+    margin-top: 10px;
+}
+
+/* Autres styles des dashboards */
+.card-dashboard {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.total-offers-dashboard {
+    background-color: #D6E4FF;
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Couleurs par index */
+.card-dashboard.color-0 {
+    background-color: #28a745; /* Vert */
+}
+
+.card-dashboard.color-1 {
+    background-color: #6f42c1; /* Violet */
+}
+
+.card-dashboard.color-2 {
+    background-color: #007bff; /* Bleu */
+}
+
+.card-dashboard.color-3 {
+    background-color: #ffc107; /* Jaune */
+}
+
+.card-dashboard.color-4 {
+    background-color: #fd7e14; /* Orange */
+}
+
+.card-dashboard.color-5 {
+    background-color: #dc3545; /* Rouge */
+}
+
+/* Agrandissement des dashboards pour les indicateurs filtrés */
+.card-filter {
+    width: 100%;
+    padding: 30px;
+}
+
+/* Affichage de 3 dashboards par ligne */
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}

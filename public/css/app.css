@@ -1,0 +1,6 @@
+body {
+    background-image: url('/images/PPGR.png'); /* Remplacez par le nom de votre image */
+    background-size: cover; /* Pour couvrir tout l'écran */
+    background-position: center; /* Pour centrer l'image */
+    background-repeat: no-repeat; /* Pour ne pas répéter l'image */
+}

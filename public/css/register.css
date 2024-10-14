@@ -1,0 +1,104 @@
+/* login.css */
+
+/* Style du card (cadre qui couvre le formulaire) */
+.custom-card {
+    max-width: 310px;
+    padding: 80px;
+    margin-left: 500px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffc4; /* Ajouter une couleur de fond si nécessaire */
+    margin-top: 100px;
+    height:400px;
+}
+
+/* Style du bouton "Log in" */
+.btn-tertiary {
+    display: block;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color:#D6E4FF;
+    padding: 8px 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/* Titre */
+h2.text-center {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a.text-sm {
+    font-size: 20px;
+    color: #000000;
+    display: block; /* S'assure que le lien occupe toute la ligne */
+    margin-top: 10px; /* Ajoute un espace au-dessus du lien */
+    font-weight: bold;
+}
+
+
+p.text-sm {
+    font-size: 20px;
+    color: #000000;
+    display: block; /* S'assure que le lien occupe toute la ligne */
+    margin-left: 20px; /* Ajoute un espace au-dessus du lien */
+    font-weight: bold;
+}
+
+.text-inscription {
+    font-size: 17px;
+    color: #333; /* Couleur du texte de "Déjà inscrit?" */
+    margin-right: 5px; /* Espace entre le texte et le lien */
+    margin-top: 30px;
+}
+
+.text-link {
+    font-size: 18px;
+    color: #007bff; /* Couleur bleue par défaut pour les liens */
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}
+
+/* Style des champs de formulaire */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #a5a4a4;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style du texte centré */
+.text-center {
+    text-align: center;
+    margin-top: -15px;
+}
+
+/* Style des liens */
+.text-sm {
+    font-size: 17px;
+    color: #101010;
+}
+
+/* Positionnement des icônes */
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    padding-left: 35px; /* décaler pour laisser la place à l'icône */
+}
+
+.input-icon i {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b2bdd2; /* Couleur de l'icône */
+}

@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {},
+    "devDependencies": {
+        "alpinejs": "^3.4.2",
+        "axios": "^1.6.4",
+        "postcss": "^8.4.31"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8"
+    }
+}

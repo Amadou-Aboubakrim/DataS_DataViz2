@@ -1,0 +1,241 @@
+/* Styles du header */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #d1d5db;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 60px; /* Hauteur du header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn-profile, .btn-logout {
+    display: inline-block;
+    font-size: 16.5px;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 40px;
+    color: #5628d5;
+    background-color: #D6E4FF;
+}
+
+.btn-profile i, .btn-logout i {
+    margin-right: 5px;
+}
+
+.btn-logout {
+    background-color: #D6E4FF;
+}
+
+body {
+    padding-top: 90px; /* Evite que le contenu soit caché sous le header */
+}
+
+/* Styles des cartes d'offres */
+.offre-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.offre-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offre-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.offre-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.offre-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.btn-details {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn-details:hover {
+    background-color: #45a049;
+}
+
+/* Pagination */
+.pagination-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pagination a, .pagination span {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+.pagination .disabled span {
+    background-color: #f0f0f0;
+    color: #aaa;
+}
+
+.pagination .active span {
+    background-color: #0056b3;
+    color: white;
+}
+
+.pagination-prev,
+.pagination-next {
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.pagination-prev:hover,
+.pagination-next:hover {
+    background-color: #0056b3;
+}
+
+.details-card {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Styles des boutons comme Profil et Déconnexion */
+.btn-profile, .btn-logout {
+    display: inline-block;
+    font-size: 16.5px;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 40px;
+    color: #5628d5;
+    background-color: #D6E4FF;
+}
+
+.btn-profile i, .btn-logout i {
+    margin-right: 5px;
+}
+
+/* Style du titre de la page */
+.page-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Style de la description sous le titre */
+.page-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Icônes */
+.offre-info i {
+    margin-right: 8px;  /* Espace entre l'icône et le texte */
+    color: #007bff;  /* Couleur des icônes */
+}
+
+.offre-info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    margin-top: 20px; /* Espacement supplémentaire pour éviter la superposition avec le header */
+}
+
+.text-center {
+    font-size: 2rem;
+    color: #403e3e;
+    font-weight: bold;
+}
+
+.btn-offre-emplois, .btn-visualisation {
+    display: inline-block;
+    font-size: 16.5px;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #5628d5;
+    background-color: #D6E4FF;
+    margin-right: 110px; /* Ajustez cette valeur pour réduire l'espace */
+}
+
+.btn-visualisation {
+    margin-right: 250px; /* Vous pouvez aussi ajuster cette valeur si besoin */
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Aligne les boutons à droite */
+}
+
+.btn-admin {
+    display: inline-block;
+    font-size: 16.5px;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #5628d5;
+    background-color: #D6E4FF;
+    margin-right: 80px; /* Ajuste cette valeur selon tes besoins */
+}
+
+.btn-admin i {
+    margin-right: 5px;
+}

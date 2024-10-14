@@ -1,0 +1,83 @@
+/* Ajoutez ces styles en haut de votre fichier CSS */
+html, body {
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le padding par défaut */
+    height: 100%; /* Pour garantir que le body prend toute la hauteur */
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* Retire le padding par défaut */
+    margin: 0; /* Retire la marge par défaut */
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffffc4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1px;
+    position: relative; /* S'assure que la position est relative */
+    top: 0; /* Colle le header en haut */
+}
+
+.header .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end; /* Aligne les boutons à droite */
+    align-items: center;
+    margin: 0; /* Ajouté pour assurer qu'il n'y a pas d'espace */
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 8px 40px;
+    text-decoration: none; /* Retire le soulignement */
+    margin-left: 20px; /* Espace entre les boutons */
+}
+
+.btn-primary {
+    background-color: #D6E4FF; /* Couleur pour le bouton Connexion */
+}
+
+.btn-secondary {
+    background-color: #D6E4FF; /* Couleur pour le bouton Inscription */
+}
+
+.container {
+    text-align: center;
+    color: #5628d5; /* Couleur du texte pour une meilleure lisibilité */
+    padding: 50px; /* Ajoute de l'espace autour du texte */
+    background: #e3ecff; /* Fond semi-transparent pour améliorer la lisibilité */
+    border-radius: 10px; /* Arrondir les bords du conteneur */
+    margin: 50px auto 0; /* Ajoute une marge supérieure de 50px et centre le conteneur */
+    max-width: 800px; /* Largeur maximale pour le conteneur */
+}
+
+.container h1 {
+    font-size: 51px;
+    margin-top: 50px; /* Gardez cela ou modifiez-le selon vos besoins */
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.container p {
+    font-size: 20px; /* Taille de police plus grande pour les paragraphes */
+    margin: 20px 0; /* Ajoute de l'espace au-dessus et en dessous des paragraphes */
+    line-height: 1.5; /* Espacement des lignes pour une meilleure lisibilité */
+}
+
+body {
+    background-image: url('/images/PPGR.png'); /* Remplacez par le nom de votre image */
+    background-size: cover; /* Pour couvrir tout l'écran */
+    background-position: center; /* Pour centrer l'image */
+    background-repeat: no-repeat; /* Pour ne pas répéter l'image */
+}
